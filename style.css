@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.app{
+    background: white;
+    width: 70%; 
+    max-width: 800px;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    opacity: 50%;
+    position: relative;
+}
+.app h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(5, 7, 66);
+    border-bottom: 5px dotted black;
+    padding-bottom: 30px;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+.btn{
+  padding: 10px;
+  margin: 10px 0;
+  font-weight: 500;
+  font-size: 20px;
+  width: 100%;
+  border: 4px solid rgb(21, 2, 77);
+  color: rgb(21, 2, 77) ;
+  background: whitesmoke;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+  background:rgb(21, 2, 77);
+  color: #fff;
+}
+.btn:disabled{
+  cursor: no-drop;
+}
+
+#next-btn{
+  background:rgb(21, 2, 77) ;
+  color: whitesmoke;
+  font-weight: 500;
+  font-size:25px;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+}
+#next-btn:hover{
+  background: cyan; 
+  color: rgb(21, 2, 77);
+}
+@media only screen and (min-width: 500px) {
+  .archive {
+    position: relative;
+    padding: 20px;
+    align-self: flex-end; } }
+
+    #myVideo {
+      right: 50%;
+      left: 50%;
+      max-width: 100%;
+      position: absolute;
+    top: 60%;
+    bottom: 60%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    }
+
+.correct {
+  background: rgb(52, 174, 54);
+}
+.incorrect {
+background: rgb(167, 42, 42);
+}
